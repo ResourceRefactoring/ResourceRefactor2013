@@ -42,7 +42,7 @@
     <Groups>
 
       <Group guid="guidResourceRefactor2013CmdSet" id="MyMenuGroup" priority="0x0600">
-        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTX_REFACTORING"/>
       </Group>
       
 
@@ -62,7 +62,7 @@
           If you do not want an image next to your command, remove the Icon node /> -->
 
       <Button guid="guidResourceRefactor2013CmdSet" id="cmdidExtractResource" priority="0x0100" type="Button">
-        <Parent guid="guidResourceRefactor2013CmdSet" id="MyMenuGroup" />
+        <Parent guid="guidSHLMainMenu" id="IDG_REFACTORING_ADVANCED" />
         <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
           <ButtonText>Extract to Resource</ButtonText>
@@ -87,7 +87,9 @@
   </Commands>
 
 
-
+  <KeyBindings>
+    <KeyBinding guid="guidResourceRefactor2013CmdSet" id="cmdidExtractResource" editor="guidVSStd97" mod1="Control" mod2="Control" key1="R" key2="X" />
+  </KeyBindings>
 
 
   <Symbols>

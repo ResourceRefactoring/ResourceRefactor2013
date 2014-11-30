@@ -8,6 +8,13 @@ using Microsoft.VisualStudio;
 using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.VisualStudio.OLE.Interop;
 using Microsoft.VisualStudio.Shell;
+using System.Diagnostics.CodeAnalysis;
+
+using Microsoft.VSPowerToys.ResourceRefactor;
+using System.Windows.Forms;
+using EnvDTE80;
+using EnvDTE;
+using Microsoft.VSPowerToys.ResourceRefactor.Common;
 
 namespace ResourceRefactoring.ResourceRefactor2013
 {
@@ -78,22 +85,65 @@ namespace ResourceRefactoring.ResourceRefactor2013
         /// </summary>
         private void MenuItemCallback(object sender, EventArgs e)
         {
-            // Show a Message Box to prove we were here
-            IVsUIShell uiShell = (IVsUIShell)GetService(typeof(SVsUIShell));
-            Guid clsid = Guid.Empty;
-            int result;
-            Microsoft.VisualStudio.ErrorHandler.ThrowOnFailure(uiShell.ShowMessageBox(
-                       0,
-                       ref clsid,
-                       "ResourceRefactor2013",
-                       string.Format(CultureInfo.CurrentCulture, "Inside {0}.MenuItemCallback()", this.ToString()),
-                       string.Empty,
-                       0,
-                       OLEMSGBUTTON.OLEMSGBUTTON_OK,
-                       OLEMSGDEFBUTTON.OLEMSGDEFBUTTON_FIRST,
-                       OLEMSGICON.OLEMSGICON_INFO,
-                       0,        // false
-                       out result));
+            DTE2 applicationObject = Package.GetGlobalService(typeof(DTE)) as DTE2;
+
+            TextSelection selection = (TextSelection)(applicationObject.ActiveDocument.Selection);
+            if (applicationObject.ActiveDocument.ProjectItem.Object != null)
+            {
+
+                BaseHardCodedString stringInstance = BaseHardCodedString.GetHardCodedString(applicationObject.ActiveDocument);
+
+                if (stringInstance == null)
+                {
+                    MessageBox.Show(
+                        Strings.UnsupportedFile + " (" + applicationObject.ActiveDocument.Language + ")",
+                        Strings.WarningTitle,
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
+                    return;
+                }
+
+                MatchResult scanResult = stringInstance.CheckForHardCodedString(
+                   selection.Parent,
+                   selection.AnchorPoint.AbsoluteCharOffset - 1,
+                   selection.BottomPoint.AbsoluteCharOffset - 1);
+
+                if (!scanResult.Result && selection.AnchorPoint.AbsoluteCharOffset < selection.BottomPoint.AbsoluteCharOffset)
+                {
+                    scanResult.StartIndex = selection.AnchorPoint.AbsoluteCharOffset - 1;
+                    scanResult.EndIndex = selection.BottomPoint.AbsoluteCharOffset - 1;
+                    scanResult.Result = true;
+                }
+                if (scanResult.Result)
+                {
+                    stringInstance = stringInstance.CreateInstance(applicationObject.ActiveDocument.ProjectItem, scanResult.StartIndex, scanResult.EndIndex);
+                    if (stringInstance != null && stringInstance.Parent != null)
+                    {
+                        PerformAction(stringInstance);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(Strings.NotStringLiteral, Strings.WarningTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        /// <summary>Shows "Extract to Resource" dialog to user and extracts the string to resource files</summary>
+        /// <param name="stringInstance">String to refactor</param>
+        [SuppressMessage("Microsoft.Globalization", "CA1300:SpecifyMessageBoxOptions")]
+        private void PerformAction(BaseHardCodedString stringInstance)
+        {
+            ExtractToResourceActionSite site = new ExtractToResourceActionSite(stringInstance);
+            if (site.ActionObject != null)
+            {
+                RefactorStringDialog dialog = new RefactorStringDialog();
+                dialog.ShowDialog(site);
+            }
+            else
+            {
+                MessageBox.Show(Strings.UnsupportedFile, Strings.WarningTitle, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
     }
