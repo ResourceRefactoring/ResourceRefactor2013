@@ -4,6 +4,7 @@
     <Identity Id="1bd39d38-1eb0-423f-bc40-46301c752ace" Version="3.1" Language="en-US" Publisher="Resource Refactoring" />
     <DisplayName>ResourceRefactor2013</DisplayName>
     <Description>Forked from http://resourcerefactor.codeplex.com/ to add support for Visual Studio 2013 as an extension.</Description>
+    <License>Microsoft_Permissive_License.rtf</License>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0]" />
