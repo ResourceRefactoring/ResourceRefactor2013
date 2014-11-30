@@ -136,6 +136,28 @@ Public Class ResourceReplaceOptions
                 firstLetterOfWord = True
             End If
         Next
+
+        'TODO: Read this from settings file
+        Dim subst As New Dictionary(Of String, String)
+
+        subst.Add("æ", "ae")
+        subst.Add("ø", "oe")
+        subst.Add("å", "aa")
+
+        subst.Add("Æ", "Ae")
+        subst.Add("Ø", "Oe")
+        subst.Add("Å", "Aa")
+
+        subst.Add("ä", "ae")
+        subst.Add("ö", "oe")
+
+        subst.Add("Ä", "Ae")
+        subst.Add("Ö", "Oe")
+
+        For Each key As String In subst.Keys
+            sb.Replace(key, subst(key))
+        Next key
+
         Return sb.ToString()
     End Function
 
