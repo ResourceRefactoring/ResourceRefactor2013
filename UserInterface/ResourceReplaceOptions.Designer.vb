@@ -38,6 +38,8 @@ Partial Class ResourceReplaceOptions
         Me.uxOptionChangeCurrentOnly = New System.Windows.Forms.RadioButton()
         Me.uxResourceFileSelector = New Microsoft.VSPowerToys.ResourceRefactor.ResourceFileListDropDown()
         Me.uxResourceView = New Microsoft.VSPowerToys.ResourceRefactor.ResourceGridView()
+        Me.uxNewResourceComment = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         CType(Me.uxErrorProvider, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.uxRefactorChoicePanel.SuspendLayout()
         CType(Me.uxResourceView, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -144,8 +146,6 @@ Partial Class ResourceReplaceOptions
         resources.ApplyResources(Me.uxResourceFileSelector, "uxResourceFileSelector")
         Me.uxResourceFileSelector.BackColor = System.Drawing.SystemColors.Control
         Me.uxResourceFileSelector.ExtractResourceAction = Nothing
-        Me.uxResourceFileSelector.MaximumSize = New System.Drawing.Size(1600, 27)
-        Me.uxResourceFileSelector.MinimumSize = New System.Drawing.Size(200, 27)
         Me.uxResourceFileSelector.Name = "uxResourceFileSelector"
         Me.uxResourceFileSelector.SelectedResourceFile = Nothing
         '
@@ -163,10 +163,22 @@ Partial Class ResourceReplaceOptions
         Me.uxResourceView.ReadOnly = True
         Me.uxResourceView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         '
+        'uxNewResourceComment
+        '
+        resources.ApplyResources(Me.uxNewResourceComment, "uxNewResourceComment")
+        Me.uxNewResourceComment.Name = "uxNewResourceComment"
+        '
+        'Label4
+        '
+        resources.ApplyResources(Me.Label4, "Label4")
+        Me.Label4.Name = "Label4"
+        '
         'ResourceReplaceOptions
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.uxNewResourceComment)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.uxRefactorChoicePanel)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.uxTextToReplace)
@@ -206,5 +218,7 @@ Partial Class ResourceReplaceOptions
     Friend WithEvents uxOptionChangeFileOnly As System.Windows.Forms.RadioButton
     Friend WithEvents uxOptionChangeCurrentOnly As System.Windows.Forms.RadioButton
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents uxNewResourceComment As System.Windows.Forms.TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 
 End Class

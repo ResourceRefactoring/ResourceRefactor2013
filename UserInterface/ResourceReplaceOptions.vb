@@ -74,6 +74,22 @@ Public Class ResourceReplaceOptions
         End Set
     End Property
 
+    ''' <summary>
+    ''' Gets the resource entry comment to be added to the resource
+    ''' </summary>
+    ''' <value></value>
+    ''' <returns></returns>
+    ''' <remarks></remarks>
+    Public ReadOnly Property ResourceComment() As String
+        Get
+            If Me.uxCreateNewResource.Checked Then
+                Return Me.uxNewResourceComment.Text
+            Else
+                Return ""
+            End If
+        End Get
+    End Property
+
 #End Region
 
     ''' <summary>Initializes the control to display resource files in the provided collection and show options for hard coded string user selected</summary>

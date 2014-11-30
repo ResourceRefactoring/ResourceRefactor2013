@@ -112,12 +112,12 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BottomToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -128,13 +128,13 @@
     <value>BottomToolStripPanel</value>
   </data>
   <data name="&gt;&gt;BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BottomToolStripPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BottomToolStripPanel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="TopToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -146,13 +146,13 @@
     <value>TopToolStripPanel</value>
   </data>
   <data name="&gt;&gt;TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TopToolStripPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TopToolStripPanel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="RightToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -164,13 +164,13 @@
     <value>RightToolStripPanel</value>
   </data>
   <data name="&gt;&gt;RightToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RightToolStripPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;RightToolStripPanel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="LeftToolStripPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -182,19 +182,19 @@
     <value>LeftToolStripPanel</value>
   </data>
   <data name="&gt;&gt;LeftToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LeftToolStripPanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LeftToolStripPanel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="uxCreateNewResource.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="uxCreateNewResource.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -202,7 +202,7 @@
     <value>NoControl</value>
   </data>
   <data name="uxCreateNewResource.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 489</value>
+    <value>3, 352</value>
   </data>
   <data name="uxCreateNewResource.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 17</value>
@@ -217,13 +217,13 @@
     <value>uxCreateNewResource</value>
   </data>
   <data name="&gt;&gt;uxCreateNewResource.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxCreateNewResource.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxCreateNewResource.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="Label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
@@ -235,7 +235,7 @@
     <value>NoControl</value>
   </data>
   <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 509</value>
+    <value>18, 372</value>
   </data>
   <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 13</value>
@@ -250,22 +250,22 @@
     <value>Label1</value>
   </data>
   <data name="&gt;&gt;Label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="uxNewResourceName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
   </data>
   <data name="uxNewResourceName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>111, 506</value>
+    <value>111, 369</value>
   </data>
   <data name="uxNewResourceName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>246, 20</value>
+    <value>264, 20</value>
   </data>
   <data name="uxNewResourceName.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -274,13 +274,13 @@
     <value>uxNewResourceName</value>
   </data>
   <data name="&gt;&gt;uxNewResourceName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxNewResourceName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxNewResourceName.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -304,13 +304,13 @@
     <value>Label2</value>
   </data>
   <data name="&gt;&gt;Label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="uxTextToReplace.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -322,7 +322,7 @@
     <value>98, 7</value>
   </data>
   <data name="uxTextToReplace.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 20</value>
+    <value>296, 20</value>
   </data>
   <data name="uxTextToReplace.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -331,25 +331,85 @@
     <value>uxTextToReplace</value>
   </data>
   <data name="&gt;&gt;uxTextToReplace.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxTextToReplace.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxTextToReplace.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <metadata name="uxErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="uxErrorProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>56</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>56</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="uxNewResourceComment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="uxNewResourceComment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 396</value>
+  </data>
+  <data name="uxNewResourceComment.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uxNewResourceComment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 43</value>
+  </data>
+  <data name="uxNewResourceComment.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;uxNewResourceComment.Name" xml:space="preserve">
+    <value>uxNewResourceComment</value>
+  </data>
+  <data name="&gt;&gt;uxNewResourceComment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uxNewResourceComment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uxNewResourceComment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 399</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Comment:</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="uxOptionChangeAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -373,7 +433,7 @@
     <value>uxOptionChangeAll</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeAll.Parent" xml:space="preserve">
     <value>uxRefactorChoicePanel</value>
@@ -403,7 +463,7 @@
     <value>uxOptionChangeFileOnly</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeFileOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeFileOnly.Parent" xml:space="preserve">
     <value>uxRefactorChoicePanel</value>
@@ -433,7 +493,7 @@
     <value>uxOptionChangeCurrentOnly</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeCurrentOnly.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxOptionChangeCurrentOnly.Parent" xml:space="preserve">
     <value>uxRefactorChoicePanel</value>
@@ -454,13 +514,13 @@
     <value>uxRefactorChoicePanel</value>
   </data>
   <data name="&gt;&gt;uxRefactorChoicePanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;uxRefactorChoicePanel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxRefactorChoicePanel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -484,19 +544,16 @@
     <value>Label3</value>
   </data>
   <data name="&gt;&gt;Label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="uxResourceFileSelector.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
-  </data>
-  <data name="uxResourceFileSelector.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="uxResourceFileSelector.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
@@ -504,8 +561,14 @@
   <data name="uxResourceFileSelector.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 112</value>
   </data>
+  <data name="uxResourceFileSelector.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1600, 27</value>
+  </data>
+  <data name="uxResourceFileSelector.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 27</value>
+  </data>
   <data name="uxResourceFileSelector.Size" type="System.Drawing.Size, System.Drawing">
-    <value>372, 27</value>
+    <value>390, 27</value>
   </data>
   <data name="uxResourceFileSelector.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -514,13 +577,13 @@
     <value>uxResourceFileSelector</value>
   </data>
   <data name="&gt;&gt;uxResourceFileSelector.Type" xml:space="preserve">
-    <value>Microsoft.VSPowerToys.ResourceRefactor.ResourceFileListDropDown, ResourceRefactor.UserInterface, Version=1.0.2588.18869, Culture=neutral, PublicKeyToken=null</value>
+    <value>Microsoft.VSPowerToys.ResourceRefactor.ResourceFileListDropDown, ResourceRefactor.UserInterface, Version=3.0.0.0, Culture=neutral, PublicKeyToken=edd5c2e2d9bda734</value>
   </data>
   <data name="&gt;&gt;uxResourceFileSelector.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxResourceFileSelector.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="uxResourceView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -529,7 +592,7 @@
     <value>3, 145</value>
   </data>
   <data name="uxResourceView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>373, 338</value>
+    <value>391, 201</value>
   </data>
   <data name="uxResourceView.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -538,27 +601,27 @@
     <value>uxResourceView</value>
   </data>
   <data name="&gt;&gt;uxResourceView.Type" xml:space="preserve">
-    <value>Microsoft.VSPowerToys.ResourceRefactor.ResourceGridView, ResourceRefactor.UserInterface, Version=1.0.2588.18869, Culture=neutral, PublicKeyToken=null</value>
+    <value>Microsoft.VSPowerToys.ResourceRefactor.ResourceGridView, ResourceRefactor.UserInterface, Version=3.0.0.0, Culture=neutral, PublicKeyToken=edd5c2e2d9bda734</value>
   </data>
   <data name="&gt;&gt;uxResourceView.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;uxResourceView.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 533</value>
+    <value>400, 442</value>
   </data>
   <data name="&gt;&gt;uxErrorProvider.Name" xml:space="preserve">
     <value>uxErrorProvider</value>
   </data>
   <data name="&gt;&gt;uxErrorProvider.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ResourceReplaceOptions</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

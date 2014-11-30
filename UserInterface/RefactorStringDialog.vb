@@ -58,7 +58,7 @@ Public Class RefactorStringDialog
                 End If
 
                 'Replace instances
-                If (Me.ReplaceInstances(instancesToReplace, resourceFile, Me.options.SelectedResourceName)) Then
+                If (Me.ReplaceInstances(instancesToReplace, resourceFile, Me.options.SelectedResourceName, Me.options.ResourceComment)) Then
                     Me.DialogResult = System.Windows.Forms.DialogResult.OK
                     Me.SaveSettings()
                     Me.Close()
@@ -75,7 +75,7 @@ Public Class RefactorStringDialog
     ''' <param name="resourceName">Name of the resource entry</param>
     ''' <remarks>As localization is not supported right now, CA1300 is suppressed.</remarks>
     <System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1300:SpecifyMessageBoxOptions")> _
-    Private Function ReplaceInstances(ByVal list As ReadOnlyCollection(Of Common.ExtractToResourceActionSite), ByVal resourceFile As Common.ResourceFile, ByVal resourceName As String) As Boolean
+    Private Function ReplaceInstances(ByVal list As ReadOnlyCollection(Of Common.ExtractToResourceActionSite), ByVal resourceFile As Common.ResourceFile, ByVal resourceName As String, ByVal resourceComment As String) As Boolean
         If list Is Nothing Then
             Throw New ArgumentNullException("list")
         End If
@@ -83,7 +83,7 @@ Public Class RefactorStringDialog
         If list.Count > 0 Then
             Try
                 If Me.options.IsCreateResourceChecked Then
-                    resourceFile.AddResource(resourceName, Me.stringToRefactor.Value, String.Empty)
+                    resourceFile.AddResource(resourceName, Me.stringToRefactor.Value, resourceComment)
                     resourceFile.SaveFile()
                 End If
                 For Each instance As Common.ExtractToResourceActionSite In list
