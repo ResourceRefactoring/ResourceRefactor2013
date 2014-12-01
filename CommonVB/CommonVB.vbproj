@@ -185,7 +185,7 @@
         </BootstrapperPackage>
     </ItemGroup>
     <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
-    <Import Project="..\ResourceRefactor.Settings.targets" />
+
     <!-- If the FxCop log file exists after a FxCop run, FxCop found violations so produce a build error. -->
     <Target Name="AfterBuild">
         <Error Condition=" '$(RunFxCop)'=='true' and Exists('$(FxCopLogFile)') " Text="FxCop detected build violations." />
