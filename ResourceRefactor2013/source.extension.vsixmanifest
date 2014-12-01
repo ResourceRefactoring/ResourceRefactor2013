@@ -2,7 +2,7 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
     <Identity Id="1bd39d38-1eb0-423f-bc40-46301c752ace" Version="3.1" Language="en-US" Publisher="Resource Refactoring" />
-    <DisplayName>ResourceRefactor2013</DisplayName>
+    <DisplayName>Resource Refactor 2013</DisplayName>
     <Description>Forked from http://resourcerefactor.codeplex.com/ to add support for Visual Studio 2013 as an extension.</Description>
     <License>Microsoft_Permissive_License.rtf</License>
   </Metadata>
