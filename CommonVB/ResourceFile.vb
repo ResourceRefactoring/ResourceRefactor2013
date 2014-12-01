@@ -85,7 +85,12 @@ Public Class ResourceFile
             If IsDefaultResXFile() Then
                 Return "(Default resources)"
             Else
-                Return Me.FileNamespace & "." & Me.ShortFileName
+                Dim dir As String = System.IO.Path.GetDirectoryName(projectItem.ContainingProject.FullName)
+                Dim file As String = DirectCast(projectItem.Properties.Item("LocalPath").Value, String)
+
+                Dim relPath As String = file.Substring(dir.Length + 1, file.Length - dir.Length - 1)
+                Return relPath
+                'Return Me.FileNamespace & "." & Me.ShortFileName
             End If
         End Get
     End Property
