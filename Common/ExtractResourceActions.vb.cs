@@ -84,7 +84,7 @@ namespace Microsoft.VSPowerToys.ResourceRefactor.Common {
             if (item == null) return false;
             return
                 ExtensibilityMethods.GetProjectType(item.ContainingProject) == ProjectType.VB
-                && item.Document.Language.Equals("HTML") && item.Document.Name.EndsWith(".vbhtml", StringComparison.CurrentCultureIgnoreCase); ;
+                && item.Document.Language.Equals("HTMLX") && item.Document.Name.EndsWith(".vbhtml", StringComparison.CurrentCultureIgnoreCase); ;
         }
     }
 

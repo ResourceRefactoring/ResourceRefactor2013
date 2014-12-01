@@ -28,7 +28,7 @@ namespace Microsoft.VSPowerToys.ResourceRefactor.Common {
             if (@string.Value.StartsWith("\"") || @string.Value.StartsWith("'")) {
                 return string.Format("{0}<%$ Resources:{1}, {2} %>{0}", @string.Value[0], Path.GetFileNameWithoutExtension(file.FileName), resourceName);
             } else {
-                return string.Format("<asp:Literal ruant=\"server\" Text=\"<%$ Resources:{0}, {1} %>\" Mode=\"Encode\"/>", Path.GetFileNameWithoutExtension(file.FileName), resourceName);
+                return string.Format("<asp:Literal runat=\"server\" Text=\"<%$ Resources:{0}, {1} %>\" Mode=\"Encode\"/>", Path.GetFileNameWithoutExtension(file.FileName), resourceName);
             }
         }
 
