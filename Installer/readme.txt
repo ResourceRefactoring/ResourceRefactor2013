@@ -1,1 +1,0 @@
-To build installer you need Windows Installer XML (WiX) version 3.5 plugin for Visual Studio 2010.
